@@ -77,12 +77,3 @@ This project is licensed under the MIT License.
 
 ## 🙌 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
-
----
-
-## 📧 Contact
-For questions or suggestions, reach out to **[Rajal Srivastava](https://github.com/rajalsrivastava)**.
-
-- **LinkedIn:** [Rajal Srivastava](https://www.linkedin.com/in/rajalsrivastava)
-- **Email:** [rajal10srivastava@gmail.com](mailto:rajal10srivastava@gmail.com)
-- **Twitter:** [@rajalsrivastava](https://twitter.com/rajalsrivastava)
