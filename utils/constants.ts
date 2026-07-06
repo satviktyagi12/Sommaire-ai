@@ -2,7 +2,7 @@
 export const pricingPlans = [
   {
     name: "Basic",
-    price: 49,
+    price: 900,
     description: "Perfect for occasional use",
     items: [
       "5 PDF summaries per month",
@@ -15,7 +15,7 @@ export const pricingPlans = [
   },
   {
     name: "Pro",
-    price: 129,
+    price: 1900,
     description: "For professionals and teams",
     items: [
       "Unlimited PDF summaries",
