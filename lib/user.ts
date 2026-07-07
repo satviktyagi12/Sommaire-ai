@@ -15,8 +15,18 @@ export async function getPriceIdForActiveUser(email: string) {
 export async function hasActivePlan(email: string) {
   const sql = await getDbConnection();
 
+  console.error("QUERY EMAIL:", email);
+
   const query =
-    await sql`SELECT price_id,status FROM users WHERE email = ${email} AND status = 'active' AND price_id IS NOT NULL`;
+    await sql`
+      SELECT price_id, status
+      FROM users
+      WHERE email = ${email}
+      AND status = 'active'
+      AND price_id IS NOT NULL
+    `;
+
+  console.error("QUERY RESULT:", query);
 
   return query && query.length > 0;
 }
